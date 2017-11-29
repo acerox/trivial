@@ -14,42 +14,35 @@
     <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/welcome.css">
     <title>Trivial</title>
 </head>
 <body>   
     <div class="container container-table">
       <div class="row vertical-center-row">
         <div class="col offset-lg-2 col-lg-8">
-          <div class="text-center star-align">
-            <div id="stars">
-              <i class="fa fa-star fa-3x" aria-hidden="true"></i>
-              <i class="fa fa-star fa-4x" aria-hidden="true"></i>
-              <i class="fa fa-star fa-5x" aria-hidden="true"></i>
-              <i class="fa fa-star fa-4x" aria-hidden="true"></i>
-              <i class="fa fa-star fa-3x" aria-hidden="true"></i>
-            </div>
-          </div>
+          <div class="spacer-stars"></div>
           <div class="alert alert-dismissible alert-info">
-            <div class="col offset-lg-10 col-lg-2 text-center">
-              <button class="btn btn-secondary control-buttons"><i class="fa fa-cog" aria-hidden="true"></i></button>
-              <button class="btn btn-secondary control-buttons"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            <div class="col">
+                <a href="index.html">
+                  <button type="button" class="btn btn-light btn-lg">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                  </button>
+                </a>
+                
             </div>
-
             <div class="spacer"></div>
-
-            <div class="col offset-lg-3 col-lg-6">
-              <form action="questions.html" class="text-center" method="post">
-                <input type="text" class="form-control form-control-lg" placeholder="Nombre">
-                <div class="spacer"></div>
-                <input type="submit" class="btn btn-success btn-lg play-button" value="Jugar">
-                </form>
-            </div>            
+            <div class="col">
+                <button type="button" class="btn btn-danger btn-lg">Historia</button>
+                <button type="button" class="btn btn-danger btn-lg">Economía</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-danger btn-lg">Lengua</button>
+                <button type="button" class="btn btn-danger btn-lg">Inglés</button>
+             </div>
           </div>  
         </div>
       </div>
     </div>
-
-    <script async src="js/trivial.js" onload="starAnimation()"></script>
+    
 </body>
 </html>
