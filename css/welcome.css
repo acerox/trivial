@@ -1,0 +1,16 @@
+.star-align {
+    position: relative;
+    top: 25px;
+    z-index: 999;
+    color: #ffd01b;
+}
+
+.play-button {
+    font-size: 20px;
+}
+
+.spacer {
+    margin:0; 
+    padding:0; 
+    height:30px;
+}
